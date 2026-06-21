@@ -29,6 +29,7 @@ Our mascot, a friendly robot inspecting an eye through a lens, is a fair summary
 - **Predicting Demographics from Meibography Using Deep Learning** (Scientific Reports 2022) — [paper](https://www.nature.com/articles/s41598-022-18933-y)
 - **Meibography Phenotyping and Classification from Unsupervised Discriminative Feature Learning** (TVST 2021) — [code](https://github.com/danielchyeh/meibo-ML)
 - **Quantifying Meibomian Gland Morphology Using Artificial Intelligence** (Optometry and Vision Science, 2021) — [code](https://github.com/danielchyeh/gland-segmentation-release)
+- **A Deep Learning Approach for Meibomian Gland Atrophy Evaluation in Meibography Images** (TVST 2019) — [paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6922272/)
 
 ---
 
