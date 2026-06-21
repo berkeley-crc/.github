@@ -10,13 +10,16 @@
 
 ## About
 
-We build AI methods for the ocular surface, focused on meibomian-gland morphology and its role in meibomian gland dysfunction (MGD) and dry eye. Our work turns raw meibography images into quantitative, reproducible morphology measurements — so that gland health can be characterized consistently rather than estimated by eye.
+We build AI for the ocular surface, focused on meibomian-gland morphology and its role in meibomian gland dysfunction (MGD) and dry eye disease. Our goal is to turn raw meibography images into quantitative, reproducible measurements, so that gland health can be characterized consistently rather than estimated by eye.
 
 Our mascot, a friendly robot inspecting an eye through a lens, is a fair summary of the work: careful, close-up measurement.
 
-## Ongoing Research
+## What we're working on
 
-A unified meibomian-gland **instance-segmentation** pipeline built on Cellpose-SAM, producing per-gland morphology metrics — visible gland count, length, width, contrast, and tortuosity — together with **atrophy** and **density**. A two-model *tarsal-plate &rarr; atrophy* chain constrains an atrophy segmenter to the tarsal plate, and gland masks are likewise restricted to the plate to remove skin and eyelash false positives. Everything runs as an interactive Gradio demo with automatic upper/lower eyelid detection.
+- **Automated meibography analysis** — methods that find the meibomian glands in an image and summarize their morphology (gland count, length, atrophy, and related measures) into consistent, comparable numbers.
+- **A research web platform** — an interactive tool that runs the analysis in the browser, used for clinical research (access-controlled).
+- **Expert-in-the-loop annotation** — a collaborative workflow where clinicians review and refine the model's output, so the methods keep improving on real-world data.
+- **Workflow tooling** — supporting utilities for the meibography pipeline, including raw-image enhancement / de-reflection and capture-device file management.
 
 ## Selected Work
 
@@ -24,12 +27,8 @@ A unified meibomian-gland **instance-segmentation** pipeline built on Cellpose-S
 - **Meibography phenotyping and classification from unsupervised discriminative feature learning** (TVST 2021) — [meibo-ML](https://github.com/danielchyeh/meibo-ML)
 - **MGD-AI** — [MGD-AI](https://github.com/danielchyeh/MGD-AI)
 
-## Pipeline Tooling
-
-We also maintain supporting tooling for the meibography workflow, including raw-image enhancement / de-reflection and device file-renaming utilities.
-
 ---
 
 <p align="center">
-  Maintained by <a href="https://github.com/danielchyeh">Chun-Hsiao (Daniel) Yeh</a> &nbsp;&middot;&nbsp; <a href="https://github.com/danielchyeh">@danielchyeh</a>
+  Maintained by <a href="https://github.com/danielchyeh">Chun-Hsiao (Daniel) Yeh</a> &nbsp;&middot;&nbsp; Clinical Research Center, UC Berkeley
 </p>
